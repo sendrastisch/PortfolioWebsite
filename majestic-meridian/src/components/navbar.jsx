@@ -3,7 +3,7 @@ import React from 'react';
 const Navbar = ({  }) => {
 
     return (
-        <div className="shadow-2xl bg-black flex justify-between border-b-2 ">
+        <div className="shadow-2xl bg-black flex justify-between ">
             <p className="text-orange m-7">Sandra Fernandes</p>
             <ul className="flex flex-row space-x-9 m-7">
                 <li className="cursor-pointer">
