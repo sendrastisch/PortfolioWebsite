@@ -1,21 +1,6 @@
-import React, {useState} from 'react';
+import React from 'react';
 
 const Navbar = ({  }) => {
-    const [hover, setHover] = useState(false);
-
-    const onHover = () => {
-        setHover(true);
-        console.log("hey?")
-    };
-
-    const onLeave = () => {
-        setHover(false);
-    };
-
-
-    function handleClick(){
-        console.log(classTail)
-    }
 
     return (
         <div className="shadow-2xl bg-black flex justify-between border-b-2 ">
